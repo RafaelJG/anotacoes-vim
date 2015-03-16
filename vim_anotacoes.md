@@ -10,5 +10,5 @@
 
 `r` : nrc
 
-  O comando `r` substitui n caracteres abaixo do cursor pelo caractere c.
+	O comando `r` substitui n caracteres abaixo do cursor pelo caractere c.
 
