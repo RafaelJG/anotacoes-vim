@@ -8,5 +8,7 @@
 
 `[hjkl]` : Move o cursor, igual às setas do teclado
 
-`r` : nrc\vO comando `r` substitui n caracteres abaixo do cursor pelo caractere c.
+`r` : nrc
+
+  O comando `r` substitui n caracteres abaixo do cursor pelo caractere c.
 
