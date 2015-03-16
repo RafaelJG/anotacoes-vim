@@ -11,4 +11,6 @@
 `r` : nrc
 
   O comando `r` substitui n caracteres abaixo do cursor pelo caractere c.
+  
+1986\. What a great season.
 
