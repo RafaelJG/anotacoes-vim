@@ -1,13 +1,7 @@
-# **EXEMPLO**
+# **Comandos**
 
-```shell
- comando --opcao="argumento"
-```
+* **No modo de comando:**
 
-* **Onde:**
+`i`: Entra no modo de inserção
 
-`comando`: é um comando
-
-`opcao`: é uma opção;
-
-`argumento`: é um argumento
+`I`: Entra no modo de inserção na primeira linha
