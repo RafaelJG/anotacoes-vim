@@ -14,6 +14,4 @@
 
 `w` : move o cursor uma palavra da esquerda pra direita
 
-`b (backwards)` : move o cursor uma palavra da esquerda pra direita
-
-
+`b` : move o cursor uma palavra da esquerda pra direita
