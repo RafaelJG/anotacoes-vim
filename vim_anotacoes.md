@@ -1,4 +1,3 @@
-
 # **Configuração padrão**
 Dependendo do pacote vim que é instalado, existe um arquivo ~/.vimrc onde são as configurações que o vim carrega antes de inicializar. Exemplo:
 ```shell
@@ -111,6 +110,30 @@ set number
 
 	Há um comando de tutorial do vim: vimtutor
 
+* **Opções**
+
+*:set*
+autowrite      aw    salva a cada alteração
+backspace      bs    comportamento backspace(1 ou 2) 
+errorbell      eb    campainha de erro
+expandtab      et    troca tab por espacos
+fileformat=dos ff    converte o arquivo para DOS
+hidden         hid   preserva buffer
+hlsearch       hls   ilumina a última procura
+ignorecase     ic    case insensitive na busca
+incsearch      is    ilumina procura enquanto digita
+laststatus=2         mostra linha de estado
+lazyredraw     lz    não redesenha em macros
+lines=N              número de linhas na tela
+magic                usar mágicas na procura de padrões
+number         nu    mostra núm da linha
+report=N             mostra aviso quando N linhas mudaram (0=sempre)
+showcmd              mostra o comando que se está fazendo
+showmatch      sm    mostra o casamento de {},[],()
+smartcase      scs   assume "noic" quando tiver maiúsculas
+textwidth=N          quebra de linha do texto
+undolevels     ul=N  guarde os N últimos comandos p/desfazer (padrão=1000)
+vb t_vb=             retira o "beep" de erro
 
 * **Caracteres Especiais**
 
