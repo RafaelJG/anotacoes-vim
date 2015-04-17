@@ -164,3 +164,23 @@ set number
 
 	Para inserir um caractere especial, deve-se entrar no modo de inserção e pressionar ctrl+k e o código do caractere.
 
+* **Workflow Example**
+
+
+1. :cd into the toplevel directory of my project.
+
+2. To open file foo/bar/baz:
+
+* Simplest scenario: type :e f<tab>b<tab>b<tab><enter>.
+
+* If there are more than one file starting with b in one of those directories you might have to do a <left> or <right> or another <tab> on the keyboard to jump between them (or type a few more letters to disambiguate).
+
+* Worst-case scenario there are files and directories that share a name and you need to drill down into the directory. In this case tab-complete the directory name and then type *<tab> to drill down.
+
+3. Open 2 or 3 windows and open files in all of them as needed.
+
+4. Once a file is open in a buffer, don't kill the buffer. Leave it open in the background when you open new files. Just :e a new file in the same window.
+
+5. Then, use :b <tab> to cycle through buffers that are already open in the background. If you type :b foo<tab> it will match only against currently-open files that match foo.
+
+
