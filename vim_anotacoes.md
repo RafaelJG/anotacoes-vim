@@ -1,10 +1,64 @@
-
 # **Configuração padrão**
 Dependendo do pacote vim que é instalado, existe um arquivo ~/.vimrc onde são as configurações que o vim carrega antes de inicializar. Exemplo:
 ```shell
 $ cat ~/.vimrc
 syntax on
 set number
+```
+# **Configurando dicionário**
+
+[Adicionando corretor ortográfico VERO no vim](http://www.lsl.dcc.ufmg.br/2013/02/25/adicionando-corretor-ortografico-em-portugues-no-vim/)
+
+## Passos:
+
+1. Compilar
+
+2. Adicionar o arquivo compilado no vim
+
+3. Ligar o corretor
+
+## 1. Compilar
+
+```vim
+:mkspell pt [arquivo dicionário]
+```
+
+```vim
+:mkspell pt pt_BR
+```
+
+Ele irá compilar e gerar o arquivo **pt.utf-8.spl**.
+
+## 2. Adicionar no vim o arquivo
+
+Mover para *~/.vim/spell*
+
+## 3. Ligar o corretor
+
+```vim
+:set spell spelllang=pt,en
+```
+
+## Comandos do corretor
+
+`]s` vai para a próxima palavra.
+
+`[s` vai para a palavra anterior.
+
+`z=` mostra a lista de sugestões para a palavra.
+
+`zg` adiciona a palavra sob o cursor no dicionário, assim ela não será mais marcada como errada.
+
+`zug` desfaz a última palavra adicionada.
+
+`zw` remove a palavra sob o cursor do dicionário, assim ela será maracada como errada.
+
+`zuw` desfaz ultima palavra removida.
+
+Se você não gostou da forma como o Vim sinaliza as palavras erradas basta adicionar os comandos abaixo no seu .vimrc.
+```vim
+highlight clear SpellBad
+highlight SpellBad term=reverse cterm=underline
 ```
 
 # **Comandos**
