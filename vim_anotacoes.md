@@ -1,4 +1,9 @@
+# **vim keymap**
+
+![Vim keymap](imagens/vim-keymap.gif)
+
 # **Configuração padrão**
+
 Dependendo do pacote vim que é instalado, existe um arquivo ~/.vimrc onde são as configurações que o vim carrega antes de inicializar. Exemplo:
 ```shell
 $ cat ~/.vimrc
