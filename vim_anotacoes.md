@@ -94,6 +94,22 @@ highlight SpellBad term=reverse cterm=underline
 
 `ctrl+r` : Refaz alterações
 
+## *editar várias linhas*
+
+1. mova o cursor para o começo da linha;
+
+2. entra no modo `visual block`; (Ctrl+v)
+
+3. vá até a linha que quer editar;
+
+4. Pressione `I`;
+
+5. Faça a edição;
+
+6. Pressione esc.
+
+!["Editando várias linhas"](imagens/edicao_varias_linhas.gif)
+
 * **Navegação e autolocalização(?):**
 
 `[hjkl]` : Move o cursor, igual às setas do teclado
