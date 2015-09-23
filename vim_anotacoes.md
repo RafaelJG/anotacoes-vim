@@ -2,6 +2,13 @@
 
 ![Vim keymap](imagens/vim-keymap.gif)
 
+# **vim default bindings**
+
+Para ver todos os atalhos mapeados por padrão:
+```
+:help index
+```
+
 # **Configuração padrão**
 
 Dependendo do pacote vim que é instalado, existe um arquivo ~/.vimrc onde são as configurações que o vim carrega antes de inicializar. Exemplo:
@@ -94,7 +101,11 @@ highlight SpellBad term=reverse cterm=underline
 
 `ctrl+r` : Refaz alterações
 
+<<<<<<< HEAD
 ## *editar várias linhas*
+=======
+* *editar várias linhas*
+>>>>>>> fa41f7d73f9d2da2d2059325f5d199103e56adcf
 
 1. mova o cursor para o começo da linha;
 
