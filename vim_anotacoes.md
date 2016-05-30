@@ -143,7 +143,7 @@ highlight SpellBad term=reverse cterm=underline
 
 `0 ou <home>` : coloca o cursor pro inicio da linha
 
-`$ ou <end>` : coloca o cursor pro inicio da linha
+`$ ou <end>` : coloca o cursor pro fim da linha
 
 `^` : movimenta o cursor para o primeiro caracter não-espaço ou não-tab
 
